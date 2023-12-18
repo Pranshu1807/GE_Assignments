@@ -4,6 +4,7 @@ import java.lang.Math;
 class FlipCoin {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println(" Enter a  number");
         int N = sc.nextInt();
         if (N <= 0) {
             System.out.println("Please Enter a positive number");

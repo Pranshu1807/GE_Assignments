@@ -3,6 +3,7 @@ import java.util.*;
 public class LeapYear {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a year");
         int year = sc.nextInt();
         if ((Integer.toString(year).length()) != 4) {
             System.out.println("Please enter a 4 digit number");
