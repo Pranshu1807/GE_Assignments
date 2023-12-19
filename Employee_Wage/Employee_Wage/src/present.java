@@ -6,6 +6,10 @@ public class present {
         int randomNumber = (int) (rand * 100);
         boolean present;
         present = randomNumber % 2 == 0 ? true : false;
-        System.out.println(rand + " " + randomNumber + " " + present);
+        if (present)
+            System.out.println("The employee is present");
+        else
+            System.out.println("The employee is absent");
+
     }
 }
