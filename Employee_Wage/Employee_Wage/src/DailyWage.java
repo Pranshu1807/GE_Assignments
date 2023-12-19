@@ -9,6 +9,6 @@ public class DailyWage {
         boolean present;
         present = randomNumber % 2 == 0 ? true : false;
         int TotalDailyWage = present == true ? WagePerHour * noOfHour : 0;
-        System.out.println("Daily Wage of the Employee is" + TotalDailyWage);
+        System.out.println("Daily Wage of the Employee is " + TotalDailyWage);
     }
 }
