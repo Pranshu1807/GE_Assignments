@@ -1,8 +1,12 @@
+import java.util.*;
 
 class Swap {
     public static void main(String[] args) {
-        int a = 110;
-        int b = 35;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        int a = sc.nextInt();
+        System.out.println("Enter the second number");
+        int b = sc.nextInt();
         a = a + b;
         b = a - b;
         a = a - b;
