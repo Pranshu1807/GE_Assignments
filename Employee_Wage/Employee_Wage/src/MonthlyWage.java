@@ -8,8 +8,6 @@ public class MonthlyWage {
         int noOfDays = 20;
         int FullTimeHours = 8;
         int PartTimeHours = 5;
-        int f = 0;
-        int p = 0;
         int MonthlyWage = 0;
         for (int i = 1; i <= noOfDays; i++) {
             int RandomNumber = (int) (Math.random() * 100);
@@ -17,11 +15,9 @@ public class MonthlyWage {
             boolean isPartTime = (RandomNumber % 3 == 2);
             if (isFullTime) {
                 MonthlyWage += hourlyWage * FullTimeHours;
-                f++;
             }
             if (isPartTime) {
                 MonthlyWage += hourlyWage * PartTimeHours;
-                p++;
             }
         }
 
