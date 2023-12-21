@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class MaxHours {
+public class Start {
     public static void main(String[] args) {
         int MaxHour = 100;
         int MaxDays = 20;
