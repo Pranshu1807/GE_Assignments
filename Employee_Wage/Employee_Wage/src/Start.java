@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class DailyWage {
+public class Start {
     public static void main(String[] args) {
         int WagePerHour = 20;
         int noOfHour = 8;
