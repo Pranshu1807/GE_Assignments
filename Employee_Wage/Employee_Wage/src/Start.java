@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class UC4 {
+public class Start {
     public static void main(String[] args) {
         double rand = Math.random() * 100;
         int randomNumber = (int) rand;
