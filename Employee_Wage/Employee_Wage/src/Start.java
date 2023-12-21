@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class MonthlyWage {
+public class Start {
 
     public static void main(String[] args) {
 
